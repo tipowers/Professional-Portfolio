@@ -110,11 +110,16 @@ h3 {
 }
 
 .section__title--intro {
+    text-shadow: 1.5px 1.5px #e9e3e3;
     font-weight: var(--fw-reg);
 }
 
 .section__title--intro strong {
     display: block;
+}
+
+.section__title--about {
+    text-shadow: 1.5px 1.5px #e9e3e3;
 }
 
 .section__subtitle {
@@ -143,7 +148,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 1em;
-    background: var(--clr-dark)
+    background: var(--clr-dark);
 }
 
 .logo {
@@ -291,6 +296,7 @@ header {
 .section__title--services {
     color: #e9e3e3;
     position: relative;
+    text-shadow: 2px 2px #111;
 }
 
 .section__title--services::after {
@@ -309,6 +315,7 @@ header {
 
 .service {
     color: #ffffff;
+    text-shadow: 2px 2px #111;
     max-width: 500px;
     margin: -.5em auto;
     background: rgba(26, 90, 116, 0.75);
@@ -331,8 +338,10 @@ header {
 /* Get To Know Me Section */
 
 .about-me {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
+    line-height: 1.5em;
+    font-weight: var(--fw-bold);
 }
 
 .about-me__img {
@@ -368,6 +377,7 @@ header {
         grid-area: img;
         position: relative;
         z-index: 2;
+        max-width: 210px;
     }
 }
 
