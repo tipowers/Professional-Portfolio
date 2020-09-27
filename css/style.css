@@ -42,7 +42,7 @@ html {
 }
 
 body {
-    background: radial-gradient(circle,#89f7fe, #9ddce7);
+    background: radial-gradient(at 100% 30%, #118a92, #c2e2e7);
     color: var(--clr-dark);
     margin: 0;
     font-family: 'Montserrat', sans-serif;
