@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Normalization link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    <!--Font Awesome link-->
+    <script src="https://kit.fontawesome.com/e7f77fd0f6.js" crossorigin="anonymous"></script>
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans&display=swap" rel="stylesheet">
+    <!--Stylesheet link-->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Tim's Portfolio</title>
+</head>
+<body>
+    <!--Header / Navigation-->
+    <header>
+        <div class="logo">
+            <img src="./img/logo.jpg" alt="">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">What I Do</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Home (change this naming convention later)-->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I'm <strong>Tim Powers</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">And I build websites like this one!</p>
+        <img src="./img/20160517_202453 (2).png" alt="Buddy and I having a good laugh" class="intro__img">
+    </section>
+
+    <!--What I Do-->
+    <section class="my-services" id="services">
+        <h2 class="section_title section__title--services">What I Do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Front-End Web Development</h3>
+                <p>I design and build websites and applications using HTML, CSS, and JavaScript. This very website uses only these three services.</p>
+            </div> 
+            <div class="service">
+                <h3>Back-End Framework</h3>
+                <p>Currently being mentored in the PHP Laravel 8 framework which greatly simplifies building applications. Authentication out-of-the-box is great!</p>
+            </div>
+            <div class="service">
+                <h3>Other Languages</h3>
+                <p>PHP exposure through Laravel framework use. I have a small library of self-built Python programs. Also worked with Java via Android Studio.</p>
+            </div>
+            <div class="service">
+                <h3>Development Certifications</h3>
+                <p>I currently hold the CompTIA Project+, MTA: HTML5 Application Fundamentals, and MTA: Development Fundamentals Certifications.</p>
+            </div>
+        </div>
+
+        <a href="#work" class="btn">See My Work</a>
+    </section>
+
+    <!--About Me-->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Get To Know Me</h2>
+        <p class="section__subtitle section__subtitle--about">Web Developer based out of Noblesville, Indiana</p>
+
+        <div class="about-me__body">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, optio sit culpa expedita molestias porro numquam quia suscipit, laborum debitis officiis saepe eum pariatur explicabo quaerat est quod dolore ipsam!</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae molestias cumque at nesciunt minima dignissimos corporis tempora! Laborum repudiandae quam, voluptates soluta placeat quas dolorum harum ut! Blanditiis, dolor labore?</p>
+        </div>
+
+        <img src="./img/me at paulie's wedding.png" alt="me at paulie's wedding" class="about-me__img">
+    </section>
+
+    <!--My Work-->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My Work</h2>
+        <p class="section__subtitle section__subtitle--work">A Selection of My Work</p>
+
+        <div class="portfolio">
+            <!--Portfolio Item 1-->
+            <a href="rock-paper-scissors.html" class="portfolio__item">
+                <img src="./img/rock-paper-scissors.jpg" alt="rock-paper-scissors" class="portfolio__img">
+            </a>
+
+            <!--Portfolio Item 2-->
+            <a href="diatracker.html" class="portfolio__item">
+                <img src="./img/dev lifecycle.png" alt="development lifecycle" class="portfolio__img">
+            </a>
+
+            <!--Portfolio Item 3-->
+            <a href="tic-tac-toe.html" class="portfolio__item">
+                <img src="./img/tic-tac-toe3.jpg" alt="tic-tac-toe" class="portfolio__img">
+            </a>
+
+            <!--Portfolio Item 4-->
+            <a href="accessdb.html" class="portfolio__item">
+                <img src="./img/msaccess.png" alt="microsoft access database" class="portfolio__img">
+            </a>
+
+            <!--Portfolio Item 5-->
+            <a href="archery.html" class="portfolio__item">
+                <img src="./img/archery.jpg" alt="my very first attempt at a website" class="portfolio__img">
+            </a>
+
+             <!--Portfolio Item 6-->
+             <a href="index.html" class="portfolio__item">
+                <img src="./img/more to come2.png" alt="more to come" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+        <a href="mailto:tpowers88@outlook.com" class="footer__link">tpowers88@outlook.com</a>
+        <ul class="social-list">
+            <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/tim-powers-0123/"><i class="fab fa-linkedin"></i></a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://github.com/tipowers"><i class="fab fa-github"></i></a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://stackoverflow.com/"><i class="fab fa-stack-overflow"></i></a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://www.google.com/"><i class="fab fa-google"></i></a></li>
+        </ul>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
