@@ -148,7 +148,7 @@ header {
 
 .logo {
     max-width: 75px;
-    margin-left: 1.75em;
+    margin-left: 2.5em;
     margin-bottom: .25em;
     margin-top: .15em;
 }
@@ -282,7 +282,7 @@ header {
 
 .my-services {
     background-color: var(--clr-dark);
-    background-image: url(../img/20200924_142346.jpg);
+    background-image: url(../img/my\ home\ setup.jpg);
     background-size: cover;
     color: var(--clr-light);
     text-align: center;
