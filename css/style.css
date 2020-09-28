@@ -162,7 +162,7 @@ header {
 .nav {
     position: fixed;
     background: var(--clr-dark);
-    color: var(--clr-light);
+    color: #fff;
     top: 0;
     bottom: 0;
     left: 0;
@@ -325,7 +325,7 @@ header {
     border-radius: 5%;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 930px) {
     .services {
         display: flex;
         max-width: 1000px;
@@ -352,7 +352,7 @@ header {
     border-radius: 10%;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
     .about-me {
         display: grid;
         grid-template-columns: 1fr 200px;
@@ -399,7 +399,7 @@ header {
 }
 
 .portfolio__item {
-    background: var(--clr-accent);
+    background: var(--clr-dark);
     overflow: hidden;
     border-radius: 5%;
     margin: 1em;
@@ -494,4 +494,14 @@ header {
     justify-content: center;
     text-decoration: none;
     padding-bottom: 1em;
+}
+
+.rps__game__body {
+    display: flex;
+    height: 30em;
+}
+
+.rps__game__body--img {
+    max-width: 475px;
+    padding: 1em;
 }
