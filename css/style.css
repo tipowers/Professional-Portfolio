@@ -79,7 +79,7 @@ strong {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: var(--fw-bold);
-    border-radius: 7%;
+    border-radius: 20px 20px;
     transition: transform 200ms ease-in-out;
 }
 
@@ -128,10 +128,16 @@ h3 {
     font-size: 1.45em;
 }
 
-.section__subtitle--intro,
-.section__subtitle--about {
+.section__subtitle--intro {
     background: var(--clr-accent);
     padding: .25em 1em;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1em;
+}
+
+.section__subtitle--about {
+    background: var(--clr-accent);
+    padding: .5em .5em;
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 1em;
 }
@@ -347,6 +353,12 @@ header {
     font-weight: var(--fw-bold);
 }
 
+.about-me__body p {
+    background: rgba(255, 255, 255, 0.25);
+    padding: 1em 1em 1em 1em;
+    border-radius: 25px 25px;
+}
+
 .about-me__img {
     box-shadow: var(--bs);
     border-radius: 10%;
@@ -476,6 +488,15 @@ header {
     font-weight: var(--fw-bold);
 }
 
+.portfolio-item-individual--p1,
+.portfolio-item-individual--p2 {
+    background: rgba(255, 255, 255, 0.25);
+    padding: 1em;
+    padding-top: .25em;
+    padding-bottom: .25em;
+    border-radius: 25px 25px;
+}
+
 .project__link {
     display: flex;
     justify-content: center;
@@ -499,9 +520,11 @@ header {
 .rps__game__body {
     display: flex;
     height: 30em;
+    justify-content: center;
 }
 
 .rps__game__body--img {
-    max-width: 475px;
+    border-radius: 5%;
+    max-width: 460px;
     padding: 1em;
 }
