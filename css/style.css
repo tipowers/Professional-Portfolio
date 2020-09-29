@@ -357,6 +357,7 @@ header {
     background: rgba(255, 255, 255, 0.25);
     padding: 1em 1em 1em 1em;
     border-radius: 25px 25px;
+    box-shadow: var(--bs);
 }
 
 .about-me__img {
@@ -495,13 +496,14 @@ header {
     padding-top: .25em;
     padding-bottom: .25em;
     border-radius: 25px 25px;
+    box-shadow: var(--bs);
 }
 
 .project__link {
     display: flex;
     justify-content: center;
     text-decoration: none;
-    padding-bottom: 2em;
+    padding-bottom: 3em;
 }
 
 .project__link:hover,
@@ -524,7 +526,22 @@ header {
 }
 
 .rps__game__body--img {
-    border-radius: 5%;
+    border-radius: 7%;
     max-width: 460px;
     padding: 1em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+.download__link,
+.project__link--2 {
+    text-decoration: none;
+}
+
+@media (max-width: 900px) {
+    .rps__game__body {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
 }
