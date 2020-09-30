@@ -519,18 +519,27 @@ header {
     padding-bottom: 1em;
 }
 
-.rps__game__body {
-    display: flex;
-    height: 30em;
-    justify-content: center;
+.game__img {
+    margin-left: 100px;
+    max-width: 75%;
+    border-radius: 7%;
+    padding-top: 2em;
+    padding-bottom: .5em;
 }
 
-.rps__game__body--img {
+.game__img2 {
+    margin-left: 100px;
+    max-width: 75%;
     border-radius: 7%;
-    max-width: 460px;
-    padding: 1em;
-    padding-top: 1.5em;
-    padding-bottom: 1.5em;
+    padding-top: .5em;
+    padding-bottom: 2em;
+}
+
+.game__img--diatracker,
+.game__img--access,
+.game__img--archery {
+    max-width: 100%;
+    padding: 2em;
 }
 
 .download__link,
@@ -538,15 +547,11 @@ header {
     text-decoration: none;
 }
 
-@media (max-width: 900px) {
-    .rps__game__body {
-        display: block;
-    }
-    .rps__game__body--img {
+@media (max-width: 800px) {
+    .game__img,
+    .game__img2,
+    .game__img--access {
         max-width: 100%;
-        border-radius: 7%;
-        padding: 1em;
-        padding-top: 1.5em;
-        padding-bottom: 1.5em;
+        margin-left: 0px;
     }
 }
