@@ -501,8 +501,8 @@ header {
 
 .project__link {
     display: flex;
-    justify-content: center;
     text-decoration: none;
+    justify-content: center;
     padding-bottom: 3em;
 }
 
@@ -543,7 +543,8 @@ header {
 }
 
 .download__link,
-.project__link--2 {
+.project__link--2,
+.github__link {
     text-decoration: none;
 }
 
