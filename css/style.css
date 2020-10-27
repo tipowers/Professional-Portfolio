@@ -329,6 +329,11 @@ header {
     background: rgba(26, 90, 116, 0.75);
     padding: 1.25em 1em 0 1em;
     border-radius: 15px 15px;
+    transition: transform 200ms ease-in-out;
+}
+
+.service:hover {
+    transform: scale(1.1);
 }
 
 @media (min-width: 930px) {
@@ -354,7 +359,7 @@ header {
 }
 
 .about-me__body p {
-    background: rgba(255, 255, 255, 0.25);
+    background: rgba(255, 255, 255, 0.50);
     padding: 1em 1em 1em 1em;
     border-radius: 15px 15px;
     box-shadow: var(--bs);
